@@ -12,7 +12,42 @@ app.set("view engine", "ejs");
 //"app.get" cria rota
 //get é um método dentro do express
 app.get("/", function (req, res){
-    res.render("index");
+    //Passando itens de um objeto de arquivo JS para q o EJS renderize
+    const items = [
+        {
+            title: "D",
+            message: "esenvolver aplicações/serviços de forma fácil"
+        },
+        {
+            title: "E",
+            message: "JS usa JavaScript para renderizar HTML"
+        },
+        {
+            title: "M",
+            message: "uito fácil de usar"
+        },
+        {
+            title: "A",
+            message: "migável"
+        },
+        {
+            title: "I",
+            message: "nstall EJS"
+        },
+        {
+            title: "S",
+            message: "intaxe simples"
+        },
+    ];
+    const subtitle = "Uma linguagem de modelagem para criação de páginas HTML utilizando JS"
+    res.render("pages/index", {
+        qualitys: items,
+        subtitle: subtitle,
+    });
+})
+
+app.get("/about", function(req, res){
+    res.render("pages/about");
 })
 
 //roda o servidor
