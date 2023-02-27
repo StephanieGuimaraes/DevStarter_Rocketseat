@@ -14,3 +14,12 @@ app.set("view engine", "ejs");
 app.get("/", function (req, res){
     res.render("index");
 })
+
+//roda o servidor
+//carrega tudo no express e o listen é um funcao dentro do express
+//que fica ouvindo uma porta, nesse caso essa porta é 8080
+//OBS: para orodar os projetos no proprio pc a porta usada é o localhost
+//o localhost possui varias portas incluindo 8080 e quando o endereco
+//localhost:8080 for usado no navegador, o conteudo no arquivo server.js sera executado
+app.listen(8080);
+console.log("Rodando");
