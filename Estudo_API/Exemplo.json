@@ -1,0 +1,18 @@
+{
+    "nome": "Steph Guimaraes",
+    "cidade": "BsB",
+    "Tel": "6198452111",
+    "livros": [
+        "scrum",
+        "the age of the plataforms",
+        "Os miseraveis"
+    ],
+    "hobbies": {
+        "semana": {
+            "esportes": "volei",
+            "Dcasa": "desenhar",
+            "Dcasa1": "ler"
+        },
+        "FDS": "Assistir series"
+    } 
+}
