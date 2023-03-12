@@ -28,13 +28,13 @@ app.use(express.json())
 //Os parametros do tipo body é uma forma de se enviar informacoes para a API
 //sem que essas informacoes fiquem na url
 //app.route('/').get( (req,res) => res.send(req.body.author) )
-app.route('/').post( (req,res) => {
+/*app.route('/').post( (req,res) => {
     res.send(req.body)
 })
-
+*/
 //app.route('/').get( (req,res) => res.send(req.params.parametro) )
 
-/*
+/* 
 * Como pegar parametros pela route ou url
 */
 //Uma forma de enviar informacoes atraves da rota ex: /:nome
