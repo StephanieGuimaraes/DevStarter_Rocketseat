@@ -1,4 +1,56 @@
-.header {
-    position: relative;
-    text-align: center;
+/*Estilos da minha pagina web*/
+
+/*Seletor universal*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*-------------------*/
+/* geral */
+
+.text-center {
+  text-align: center;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+/*-------------------*/
+
+.container-cabecalho {
+  text-align: center;
+  padding: 20px;
+  background-color: #04233f;
+}
+
+.container-cabecalho h3 {
+  font-weight: 600;
+  font-size: 2em;
+  color: #1190ff;
+}
+
+/*-------------------*/
+
+.container-nav {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(8, 73, 129);
+}
+
+.container-nav a {
+  font-size: 1.5em;
+  margin: 0px 50px;
+  text-decoration: none;
+  color: rgb(69, 152, 247);
+}
+
+.container-nav a:hover {
+  color: white;
 }
